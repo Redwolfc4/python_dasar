@@ -1,0 +1,20 @@
+[
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "percobaan",
+        "description": "percobaan",
+        "peekOfCode": "a = 10\nb = 10\nprint(a+b)\nprint('saya akan melakukan commit')",
+        "detail": "percobaan",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "percobaan",
+        "description": "percobaan",
+        "peekOfCode": "b = 10\nprint(a+b)\nprint('saya akan melakukan commit')",
+        "detail": "percobaan",
+        "documentation": {}
+    }
+]
