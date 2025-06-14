@@ -16,5 +16,212 @@
         "peekOfCode": "b = 10\nprint(a+b)\nprint('saya akan melakukan commit')",
         "detail": "percobaan",
         "documentation": {}
+    },
+    {
+        "label": "variable1",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "variable1 = 10*3\nprint(variable1)\n# integer\njumlahSisiPersegiPanjang = 10\nprint(jumlahSisiPersegiPanjang)\n# float\nfloat_angka = 10.5\nprint(float_angka)\n# boolean\nboolean_true = True",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "jumlahSisiPersegiPanjang",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "jumlahSisiPersegiPanjang = 10\nprint(jumlahSisiPersegiPanjang)\n# float\nfloat_angka = 10.5\nprint(float_angka)\n# boolean\nboolean_true = True\nprint(boolean_true)\nboolean_false = False\nprint(boolean_false)",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "float_angka",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "float_angka = 10.5\nprint(float_angka)\n# boolean\nboolean_true = True\nprint(boolean_true)\nboolean_false = False\nprint(boolean_false)\n# string\n# inline string\nstring_kata = 'Aku belajar di Haltev'",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "boolean_true",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "boolean_true = True\nprint(boolean_true)\nboolean_false = False\nprint(boolean_false)\n# string\n# inline string\nstring_kata = 'Aku belajar di Haltev'\nprint(string_kata)\n# multiline String(docs)\nstring_multiline = \"\"\"",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "boolean_false",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "boolean_false = False\nprint(boolean_false)\n# string\n# inline string\nstring_kata = 'Aku belajar di Haltev'\nprint(string_kata)\n# multiline String(docs)\nstring_multiline = \"\"\"\nini adalah baris 1\nini adalah baris 2",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "string_kata",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "string_kata = 'Aku belajar di Haltev'\nprint(string_kata)\n# multiline String(docs)\nstring_multiline = \"\"\"\nini adalah baris 1\nini adalah baris 2\nini adalah baris 3\n\"\"\"\nprint(string_multiline)\n# casting",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "string_multiline",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "string_multiline = \"\"\"\nini adalah baris 1\nini adalah baris 2\nini adalah baris 3\n\"\"\"\nprint(string_multiline)\n# casting\nangka_int_to_int = int(1)\nangka_float_to_int = int(2.5)\nangka_string_to_int = int(\"3\")",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "angka_int_to_int",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "angka_int_to_int = int(1)\nangka_float_to_int = int(2.5)\nangka_string_to_int = int(\"3\")\nprint(angka_int_to_int, angka_float_to_int, angka_string_to_int)\n# float\nangka_string_float_to_float = float(\"3.5\")\nangka_int_to_float = float(3)\nangka_string_int_to_float = float('3')\nprint(angka_string_float_to_float, angka_int_to_float, angka_string_int_to_float)\n#string",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "angka_float_to_int",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "angka_float_to_int = int(2.5)\nangka_string_to_int = int(\"3\")\nprint(angka_int_to_int, angka_float_to_int, angka_string_to_int)\n# float\nangka_string_float_to_float = float(\"3.5\")\nangka_int_to_float = float(3)\nangka_string_int_to_float = float('3')\nprint(angka_string_float_to_float, angka_int_to_float, angka_string_int_to_float)\n#string\nangka_int_to_string = str(1)",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "angka_string_to_int",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "angka_string_to_int = int(\"3\")\nprint(angka_int_to_int, angka_float_to_int, angka_string_to_int)\n# float\nangka_string_float_to_float = float(\"3.5\")\nangka_int_to_float = float(3)\nangka_string_int_to_float = float('3')\nprint(angka_string_float_to_float, angka_int_to_float, angka_string_int_to_float)\n#string\nangka_int_to_string = str(1)\nangka_float_to_string = str(2.5)",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "angka_string_float_to_float",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "angka_string_float_to_float = float(\"3.5\")\nangka_int_to_float = float(3)\nangka_string_int_to_float = float('3')\nprint(angka_string_float_to_float, angka_int_to_float, angka_string_int_to_float)\n#string\nangka_int_to_string = str(1)\nangka_float_to_string = str(2.5)\nprint(angka_int_to_string,angka_float_to_string) #ini otomatis spasi dengan ,\nprint(angka_int_to_string+angka_float_to_string)\nprint(angka_int_to_string+\" \"+angka_float_to_string)",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "angka_int_to_float",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "angka_int_to_float = float(3)\nangka_string_int_to_float = float('3')\nprint(angka_string_float_to_float, angka_int_to_float, angka_string_int_to_float)\n#string\nangka_int_to_string = str(1)\nangka_float_to_string = str(2.5)\nprint(angka_int_to_string,angka_float_to_string) #ini otomatis spasi dengan ,\nprint(angka_int_to_string+angka_float_to_string)\nprint(angka_int_to_string+\" \"+angka_float_to_string)\nprint(type(angka_int_to_string),type(angka_float_to_string))",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "angka_string_int_to_float",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "angka_string_int_to_float = float('3')\nprint(angka_string_float_to_float, angka_int_to_float, angka_string_int_to_float)\n#string\nangka_int_to_string = str(1)\nangka_float_to_string = str(2.5)\nprint(angka_int_to_string,angka_float_to_string) #ini otomatis spasi dengan ,\nprint(angka_int_to_string+angka_float_to_string)\nprint(angka_int_to_string+\" \"+angka_float_to_string)\nprint(type(angka_int_to_string),type(angka_float_to_string))\n# format string ",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "angka_int_to_string",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "angka_int_to_string = str(1)\nangka_float_to_string = str(2.5)\nprint(angka_int_to_string,angka_float_to_string) #ini otomatis spasi dengan ,\nprint(angka_int_to_string+angka_float_to_string)\nprint(angka_int_to_string+\" \"+angka_float_to_string)\nprint(type(angka_int_to_string),type(angka_float_to_string))\n# format string \nprice_fruit = 50000\nstring_format = f\"harga buah = {'Rp'} {price_fruit}\" #cara1\nprint(string_format)",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "angka_float_to_string",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "angka_float_to_string = str(2.5)\nprint(angka_int_to_string,angka_float_to_string) #ini otomatis spasi dengan ,\nprint(angka_int_to_string+angka_float_to_string)\nprint(angka_int_to_string+\" \"+angka_float_to_string)\nprint(type(angka_int_to_string),type(angka_float_to_string))\n# format string \nprice_fruit = 50000\nstring_format = f\"harga buah = {'Rp'} {price_fruit}\" #cara1\nprint(string_format)\nstring_format = \"harga buah = {} {}\".format('Rp',price_fruit) #cara2",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "price_fruit",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "price_fruit = 50000\nstring_format = f\"harga buah = {'Rp'} {price_fruit}\" #cara1\nprint(string_format)\nstring_format = \"harga buah = {} {}\".format('Rp',price_fruit) #cara2\nprint(string_format)\nstring_format = f\"harga buah = {'Rp'} {price_fruit:.2f}\"#ubah jadi string float\nprint(string_format)\n# escape character \nstring_escape = 'Aku seorang developer \"Python\" di Haltev'#cara akalin string\nprint(string_escape)",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "string_format",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "string_format = f\"harga buah = {'Rp'} {price_fruit}\" #cara1\nprint(string_format)\nstring_format = \"harga buah = {} {}\".format('Rp',price_fruit) #cara2\nprint(string_format)\nstring_format = f\"harga buah = {'Rp'} {price_fruit:.2f}\"#ubah jadi string float\nprint(string_format)\n# escape character \nstring_escape = 'Aku seorang developer \"Python\" di Haltev'#cara akalin string\nprint(string_escape)\nstring_escape = \"Aku seorang developer \\\"Python\\\" di Haltev\"#cara escape string",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "string_format",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "string_format = \"harga buah = {} {}\".format('Rp',price_fruit) #cara2\nprint(string_format)\nstring_format = f\"harga buah = {'Rp'} {price_fruit:.2f}\"#ubah jadi string float\nprint(string_format)\n# escape character \nstring_escape = 'Aku seorang developer \"Python\" di Haltev'#cara akalin string\nprint(string_escape)\nstring_escape = \"Aku seorang developer \\\"Python\\\" di Haltev\"#cara escape string\nprint(string_escape)\n# operator aritmatika",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "string_format",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "string_format = f\"harga buah = {'Rp'} {price_fruit:.2f}\"#ubah jadi string float\nprint(string_format)\n# escape character \nstring_escape = 'Aku seorang developer \"Python\" di Haltev'#cara akalin string\nprint(string_escape)\nstring_escape = \"Aku seorang developer \\\"Python\\\" di Haltev\"#cara escape string\nprint(string_escape)\n# operator aritmatika\na = 20\nb = 6",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "string_escape",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "string_escape = 'Aku seorang developer \"Python\" di Haltev'#cara akalin string\nprint(string_escape)\nstring_escape = \"Aku seorang developer \\\"Python\\\" di Haltev\"#cara escape string\nprint(string_escape)\n# operator aritmatika\na = 20\nb = 6\nprint(a//b)#pembagian bulat\nprint(a%b)#pembagian sisa\nprint(a**b)# eksponent atau pangkat",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "string_escape",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "string_escape = \"Aku seorang developer \\\"Python\\\" di Haltev\"#cara escape string\nprint(string_escape)\n# operator aritmatika\na = 20\nb = 6\nprint(a//b)#pembagian bulat\nprint(a%b)#pembagian sisa\nprint(a**b)# eksponent atau pangkat\nprint()\n# operator pembanding",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "a = 20\nb = 6\nprint(a//b)#pembagian bulat\nprint(a%b)#pembagian sisa\nprint(a**b)# eksponent atau pangkat\nprint()\n# operator pembanding\nprint(a==b)\nprint(a!=b)\nprint(a>b)",
+        "detail": "pertemuan2",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "pertemuan2",
+        "description": "pertemuan2",
+        "peekOfCode": "b = 6\nprint(a//b)#pembagian bulat\nprint(a%b)#pembagian sisa\nprint(a**b)# eksponent atau pangkat\nprint()\n# operator pembanding\nprint(a==b)\nprint(a!=b)\nprint(a>b)\nprint(a<b)",
+        "detail": "pertemuan2",
+        "documentation": {}
     }
 ]
