@@ -223,5 +223,86 @@
         "peekOfCode": "b = 6\nprint(a//b)#pembagian bulat\nprint(a%b)#pembagian sisa\nprint(a**b)# eksponent atau pangkat\nprint()\n# operator pembanding\nprint(a==b)\nprint(a!=b)\nprint(a>b)\nprint(a<b)",
         "detail": "pertemuan2",
         "documentation": {}
+    },
+    {
+        "label": "list_bahasa_pemprograman",
+        "kind": 5,
+        "importPath": "pertemuan3",
+        "description": "pertemuan3",
+        "peekOfCode": "list_bahasa_pemprograman = ['Python','C++','java','JavaScript']\n# mencetak list\nprint(list_bahasa_pemprograman)\n# menambahkan list\n# cara 1\nlist_bahasa_pemprograman.append('C')\n# list_bahasa_pemprograman.append(' ')\nprint(list_bahasa_pemprograman)\n# cara2\n# list_bahasa_pemprograman[5] = 'Flutter'",
+        "detail": "pertemuan3",
+        "documentation": {}
+    },
+    {
+        "label": "list_bahasa_pemprograman[1]",
+        "kind": 5,
+        "importPath": "pertemuan3",
+        "description": "pertemuan3",
+        "peekOfCode": "list_bahasa_pemprograman[1] = 'C#'\nprint(list_bahasa_pemprograman)\nlist_bahasa_pemprograman[2:4] = [\"GO\",\"Rust\"]\nprint(list_bahasa_pemprograman)\n# menghapus\nlist_bahasa_pemprograman.remove('PHP')\nprint(list_bahasa_pemprograman)\n# end\n# tuple\ntuple_buah = ('apel','mangga','jeruk')",
+        "detail": "pertemuan3",
+        "documentation": {}
+    },
+    {
+        "label": "list_bahasa_pemprograman[2:4]",
+        "kind": 5,
+        "importPath": "pertemuan3",
+        "description": "pertemuan3",
+        "peekOfCode": "list_bahasa_pemprograman[2:4] = [\"GO\",\"Rust\"]\nprint(list_bahasa_pemprograman)\n# menghapus\nlist_bahasa_pemprograman.remove('PHP')\nprint(list_bahasa_pemprograman)\n# end\n# tuple\ntuple_buah = ('apel','mangga','jeruk')\ntuple_list_bahasa_pemprograman = tuple(list_bahasa_pemprograman)\nprint(tuple_list_bahasa_pemprograman)",
+        "detail": "pertemuan3",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_buah",
+        "kind": 5,
+        "importPath": "pertemuan3",
+        "description": "pertemuan3",
+        "peekOfCode": "tuple_buah = ('apel','mangga','jeruk')\ntuple_list_bahasa_pemprograman = tuple(list_bahasa_pemprograman)\nprint(tuple_list_bahasa_pemprograman)\nprint(tuple_buah)\n# tambah (error)\n# tuple_buah.append('coba1')\n# print(tuple_buah)\n# modifikasi (error)\n# tuple_buah[1] = 'Jeruk'\n# print(tuple_buah)",
+        "detail": "pertemuan3",
+        "documentation": {}
+    },
+    {
+        "label": "tuple_list_bahasa_pemprograman",
+        "kind": 5,
+        "importPath": "pertemuan3",
+        "description": "pertemuan3",
+        "peekOfCode": "tuple_list_bahasa_pemprograman = tuple(list_bahasa_pemprograman)\nprint(tuple_list_bahasa_pemprograman)\nprint(tuple_buah)\n# tambah (error)\n# tuple_buah.append('coba1')\n# print(tuple_buah)\n# modifikasi (error)\n# tuple_buah[1] = 'Jeruk'\n# print(tuple_buah)\n# end",
+        "detail": "pertemuan3",
+        "documentation": {}
+    },
+    {
+        "label": "person",
+        "kind": 5,
+        "importPath": "pertemuan3",
+        "description": "pertemuan3",
+        "peekOfCode": "person = {\n    'name': 'Alice',\n    'age': 25,\n    'city': 'Jakarta'\n}\nprint(person)\n# akses values berdasarkan key\nprint(person['age'])\n# akses values tanpa key\nprint(person.values())",
+        "detail": "pertemuan3",
+        "documentation": {}
+    },
+    {
+        "label": "person['city']",
+        "kind": 5,
+        "importPath": "pertemuan3",
+        "description": "pertemuan3",
+        "peekOfCode": "person['city'] = 'Bandung'\nprint(person)\n#add birthday\nperson['birthday'] = 'Bekasi, 12 Jan 2003'\nprint(person)\n#remove birthday\n# person.pop('birthday')\n# del person['birthday']\n# destroy all data\n# del person",
+        "detail": "pertemuan3",
+        "documentation": {}
+    },
+    {
+        "label": "person['birthday']",
+        "kind": 5,
+        "importPath": "pertemuan3",
+        "description": "pertemuan3",
+        "peekOfCode": "person['birthday'] = 'Bekasi, 12 Jan 2003'\nprint(person)\n#remove birthday\n# person.pop('birthday')\n# del person['birthday']\n# destroy all data\n# del person\n# hapus semua isinya saja\nperson.clear()\nprint(person)",
+        "detail": "pertemuan3",
+        "documentation": {}
+    },
+    {
+        "label": "person",
+        "kind": 5,
+        "importPath": "pertemuan3",
+        "description": "pertemuan3",
+        "peekOfCode": "person = {\n    'name': 'Bobby',\n    'age': 30,\n    'city': 'Bandung',\n    'verified': True\n}\n#if\nif person['name'] != 'Bobby':\n    print('Umur Bobby {}'.format(person['age']))\nelif person['verified']: ",
+        "detail": "pertemuan3",
+        "documentation": {}
     }
 ]
